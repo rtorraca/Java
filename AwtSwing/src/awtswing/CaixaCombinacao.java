@@ -16,8 +16,8 @@ import java.awt.event.*;
 
 public class CaixaCombinacao extends JFrame {
     
-    JList lista;
-    String linguagens[]={"Campo Grande","Cuiabá","Goiânia"};
+    JComboBox lista;
+    String linguagens[]={"C++","Java","Pyton"};
     
     public CaixaCombinacao(){
         
@@ -38,8 +38,8 @@ public class CaixaCombinacao extends JFrame {
                
     }
     
-    public static void main(String args){
-        CaixaCombinacao app = CaixaCombinacao();
+    public static void main(String args[]){
+        CaixaCombinacao app = new CaixaCombinacao();
         app.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
               
     }
