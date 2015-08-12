@@ -2,7 +2,7 @@
 
 dir
 0
-http://10.1.1.18/projetos/NetBeansProjects/LivroDeitelOO/src/L1
+http://10.1.1.18/projetos/NetBeansProjects/LivroDeitelOO/src/L5
 http://10.1.1.18/projetos/NetBeansProjects
 add
 
@@ -26,14 +26,7 @@ svn:special svn:externals svn:needs-lock
 
 05f98266-8ef1-4ca7-adce-4f64ab36473c
 
-GradeBook.java
-file
-
-
-
-add
-
-GradeBookTest.java
+Account.java
 file
 
 
