@@ -1,0 +1,42 @@
+10
+
+dir
+0
+http://10.1.1.18/projetos/NetBeansProjects/wslclient/xml-resources/web-service-references/CalculoBasico/wsdl/localhost_8080/WSL
+http://10.1.1.18/projetos/NetBeansProjects
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+05f98266-8ef1-4ca7-adce-4f64ab36473c
+
+CalculoBasico.wsdl
+file
+
+
+
+add
+
+CalculoBasico.xsd_1.xsd
+file
+
+
+
+add
+
