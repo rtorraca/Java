@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <!DOCTYPE hibernate-configuration PUBLIC
+ "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+ "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+ 
+ <hibernate-configuration>
+ 
+ 	<session-factory>
+ 		<!-- Configuracao do banco de dados -->
+ 		<property name="connection.driver_class">org.postgresql.Driver</property>
+ 		<property name="connection.url">jdbc:postgresql://localhost:5432/ponto</property>
+ 		<property name="connection.username">postgres</property>
+ 		<property name="connection.password">postgres</property>
+ 		<!-- Mapeamento de entidades -->
+ 		<mapping class="br.com.gestaoponto.persistencia.entidade.Departamento"/>
+ 		<mapping class="br.com.gestaoponto.persistencia.entidade.Funcionario"/>
+ 		<mapping class="br.com.gestaoponto.persistencia.entidade.Ferias"/>
+ 		<mapping class="br.com.gestaoponto.persistencia.entidade.Parcela"/>
+ 		<mapping class="br.com.gestaoponto.persistencia.entidade.Licenca"/>
+ 		<mapping class="br.com.gestaoponto.persistencia.entidade.TipoLicenca"/>
+ 		<mapping class="br.com.gestaoponto.persistencia.entidade.Turno"/>
+ 		<mapping class="br.com.gestaoponto.persistencia.entidade.DiaDaSemana"/>
+ 		<mapping class="br.com.gestaoponto.persistencia.entidade.TipoDia"/>
+ 		<mapping class="br.com.gestaoponto.persistencia.entidade.Marcacao"/>
+ 		<mapping class="br.com.gestaoponto.persistencia.entidade.Evento"/>
+ 		<mapping class="br.com.gestaoponto.persistencia.entidade.LinhaEvento"/>
+ 		<mapping class="br.com.gestaoponto.persistencia.entidade.TipoJustificativa"/>
+ 		<mapping class="br.com.gestaoponto.persistencia.entidade.Registro"/>
+ 		<mapping class="br.com.gestaoponto.persistencia.entidade.ItemDeRegistro"/>
+ 		<mapping class="br.com.gestaoponto.persistencia.entidade.TipoRegistro"/>
+ 		<mapping class="br.com.gestaoponto.persistencia.entidade.Funcionario_turno"/>
+ 	</session-factory>
+ 
+ 
+ </hibernate-configuration>

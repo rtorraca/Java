@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf13083246203050" configfile="/GestaoPonto/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="admin/*" x="122" y="1714" id="pf13083247281361" referenceLink="//@navigationRule.0/@fromViewId|" outlinks="pf13083247281362 pf13085150840120 pf13085900390360 pf13085900390361 pf13085900390362 pf13085900390363 pf13085900390364 pf13092718715570 pf13092718715571 pf13092718715572 pf13092718715573" path="/admin/*"/>
+  <nodes xsi:type="pageflow:PFPage" name="admin/gerenciadepartamento.jsf" x="338" y="178" id="pf13083247281363" referenceLink="//@navigationRule.0/@navigationCase.0/@toViewId|" inlinks="pf13083247281362" path="/admin/gerenciardepartamento.jsf"/>
+  <nodes xsi:type="pageflow:PFPage" name="admin/gerenciarparcelas.jsf" x="338" y="562" id="pf13085150840121" referenceLink="//@navigationRule.0/@navigationCase.1/@toViewId|" inlinks="pf13085150840120" path="/admin/gerenciarparcelas.jsf"/>
+  <nodes xsi:type="pageflow:PFPage" name="admin/gerenciarfuncionario.jsf" x="338" y="946" id="pf13085900390365" referenceLink="//@navigationRule.0/@navigationCase.2/@toViewId|" inlinks="pf13085900390360" path="/admin/gerenciarfuncionario.jsf"/>
+  <nodes xsi:type="pageflow:PFPage" name="admin/gerenciarferias.jsf" x="338" y="1330" id="pf13085900390366" referenceLink="//@navigationRule.0/@navigationCase.10/@toViewId|" inlinks="pf13085900390361 pf13092718715573" path="/admin/gerenciarferias.jsf"/>
+  <nodes xsi:type="pageflow:PFPage" name="admin/gerenciarlicencas.jsf" x="338" y="1714" id="pf13085900390367" referenceLink="//@navigationRule.0/@navigationCase.5/@toViewId|" inlinks="pf13085900390362" path="/admin/gerenciarlicencas.jsf"/>
+  <nodes xsi:type="pageflow:PFPage" name="admin/gerenciartipolicencas.jsf" x="338" y="2098" id="pf13085900390378" referenceLink="//@navigationRule.0/@navigationCase.6/@toViewId|" inlinks="pf13085900390363" path="/admin/gerenciartipolicencas.jsf"/>
+  <nodes xsi:type="pageflow:PFPage" name="admin/menu.jsf" x="338" y="2482" id="pf13085900390379" referenceLink="//@navigationRule.0/@navigationCase.9/@toViewId|" inlinks="pf13085900390364" path="/admin/menu.jsf"/>
+  <nodes xsi:type="pageflow:PFPage" name="admin/gerenciarferiasparcelas.jsf" x="338" y="2866" id="pf13092718715584" referenceLink="//@navigationRule.0/@navigationCase.4/@toViewId|" inlinks="pf13092718715570" path="/admin/gerenciarferiasparcelas.jsf"/>
+  <nodes xsi:type="pageflow:PFPage" name="admin/gerenciarturno.jsf" x="338" y="3250" id="pf13092718715585" referenceLink="//@navigationRule.0/@navigationCase.7/@toViewId|" inlinks="pf13092718715571" path="/admin/gerenciarturno.jsf"/>
+  <nodes xsi:type="pageflow:PFPage" name="admin/gerenciartipodia.jsf" x="338" y="3634" id="pf13092718715586" referenceLink="//@navigationRule.0/@navigationCase.8/@toViewId|" inlinks="pf13092718715572" path="/admin/gerenciartipodia.jsf"/>
+  <links id="pf13083247281362" target="pf13083247281363" source="pf13083247281361" outcome="gerenciardepartamento"/>
+  <links id="pf13085150840120" target="pf13085150840121" source="pf13083247281361" outcome="gerenciarparcelas"/>
+  <links id="pf13085900390360" target="pf13085900390365" source="pf13083247281361" outcome="gerenciarfuncionario"/>
+  <links id="pf13085900390361" target="pf13085900390366" source="pf13083247281361" outcome="gerenciarferias"/>
+  <links id="pf13085900390362" target="pf13085900390367" source="pf13083247281361" outcome="gerenciarlicencas"/>
+  <links id="pf13085900390363" target="pf13085900390378" source="pf13083247281361" outcome="gerenciartipolicencas"/>
+  <links id="pf13085900390364" target="pf13085900390379" source="pf13083247281361" outcome="voltar"/>
+  <links id="pf13092718715570" target="pf13092718715584" source="pf13083247281361" outcome="gerenciarferiasparcelas"/>
+  <links id="pf13092718715571" target="pf13092718715585" source="pf13083247281361" outcome="gerenciarturno"/>
+  <links id="pf13092718715572" target="pf13092718715586" source="pf13083247281361" outcome="gerenciartipodia"/>
+  <links id="pf13092718715573" target="pf13085900390366" source="pf13083247281361" outcome="voltarferias"/>
+</pageflow:Pageflow>

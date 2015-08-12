@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <!-- Configuracao do banco de dados -->
+    <property name="connection.driver_class">org.postgresql.Driver</property>
+    <property name="connection.url">jdbc:postgresql://localhost:5432/sgcf</property>
+    <property name="connection.username">postgres</property>
+    <property name="connection.password">postgres</property>
+    <!-- Mapeamento de entidades -->
+    <mapping class="sgcf.persistencia.entidade.Departamento" file="" jar="" package="" resource=""/>
+    <mapping class="sgcf.persistencia.entidade.Funcionario" file="" jar="" package="" resource=""/>
+    <mapping class="sgcf.persistencia.entidade.Ferias" file="" jar="" package="" resource=""/>
+    <mapping class="sgcf.persistencia.entidade.Parcela" file="" jar="" package="" resource=""/>
+    <mapping class="sgcf.persistencia.entidade.Licenca" file="" jar="" package="" resource=""/>
+    <mapping class="sgcf.persistencia.entidade.TipoLicenca" file="" jar="" package="" resource=""/>
+    <mapping class="sgcf.persistencia.entidade.Turno" file="" jar="" package="" resource=""/>
+    <mapping class="sgcf.persistencia.entidade.DiaDaSemana" file="" jar="" package="" resource=""/>
+    <mapping class="sgcf.persistencia.entidade.TipoDia" file="" jar="" package="" resource=""/>
+    <mapping class="sgcf.persistencia.entidade.Marcacao" file="" jar="" package="" resource=""/>
+    <mapping class="sgcf.persistencia.entidade.Evento" file="" jar="" package="" resource=""/>
+    <mapping class="sgcf.persistencia.entidade.LinhaEvento" file="" jar="" package="" resource=""/>
+    <mapping class="sgcf.persistencia.entidade.TipoJustificativa" file="" jar="" package="" resource=""/>
+    <mapping class="sgcf.persistencia.entidade.Registro" file="" jar="" package="" resource=""/>
+    <mapping class="sgcf.persistencia.entidade.ItemDeRegistro" file="" jar="" package="" resource=""/>
+    <mapping class="sgcf.persistencia.entidade.TipoRegistro" file="" jar="" package="" resource=""/>
+    <mapping class="sgcf.persistencia.entidade.Funcionario_turno" file="" jar="" package="" resource=""/>
+  </session-factory>
+</hibernate-configuration>

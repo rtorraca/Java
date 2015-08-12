@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<faces-config
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_2_0.xsd"
+    version="2.0">
+
+<navigation-rule>
+	<from-view-id>/admin/*</from-view-id>
+	<navigation-case>
+		<from-outcome>gerenciardepartamento</from-outcome>
+		<to-view-id>/admin/gerenciardepartamento.jsf</to-view-id>
+	</navigation-case>
+	<navigation-case>
+		<from-outcome>gerenciarparcelas</from-outcome>
+		<to-view-id>/admin/gerenciarparcelas.jsf</to-view-id>
+	</navigation-case>
+	<navigation-case>
+		<from-outcome>gerenciarfuncionario</from-outcome>
+		<to-view-id>/admin/gerenciarfuncionario.jsf</to-view-id>
+	</navigation-case>
+	<navigation-case>
+		<from-outcome>gerenciarferias</from-outcome>
+		<to-view-id>/admin/gerenciarferias.jsf</to-view-id>
+	</navigation-case>
+	<navigation-case>
+		<from-outcome>gerenciarferiasparcelas</from-outcome>
+		<to-view-id>/admin/gerenciarferiasparcelas.jsf</to-view-id>
+	</navigation-case>
+	<navigation-case>
+		<from-outcome>gerenciarlicencas</from-outcome>
+		<to-view-id>/admin/gerenciarlicencas.jsf</to-view-id>
+	</navigation-case>
+	<navigation-case>
+		<from-outcome>gerenciartipolicencas</from-outcome>
+		<to-view-id>/admin/gerenciartipolicencas.jsf</to-view-id>
+	</navigation-case>
+	<navigation-case>
+		<from-outcome>gerenciarturno</from-outcome>
+		<to-view-id>/admin/gerenciarturno.jsf</to-view-id>
+	</navigation-case>
+	<navigation-case>
+		<from-outcome>gerenciartipodia</from-outcome>
+		<to-view-id>/admin/gerenciartipodia.jsf</to-view-id>
+	</navigation-case>
+	<navigation-case>
+  		<from-outcome>voltar</from-outcome>
+  		<to-view-id>/admin/menu.jsf</to-view-id>
+  	</navigation-case>
+  	<navigation-case>
+  		<from-outcome>voltarferias</from-outcome>
+  		<to-view-id>/admin/gerenciarferias.jsf</to-view-id>
+  	</navigation-case>
+  	
+</navigation-rule>
+	<validator>
+		<validator-id>emailValidator</validator-id>
+		<validator-class>br.com.gestaoponto.persistencia.validador.EmailValidator</validator-class>
+	</validator>
+</faces-config>
