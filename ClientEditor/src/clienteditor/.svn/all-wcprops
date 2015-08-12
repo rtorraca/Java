@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projetos/NetBeansProjects/!svn/ver/2/ClientEditor/src/clienteditor
+END
+EmailValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/projetos/NetBeansProjects/!svn/ver/2/ClientEditor/src/clienteditor/EmailValidator.java
+END
+RequiredStringValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/projetos/NetBeansProjects/!svn/ver/2/ClientEditor/src/clienteditor/RequiredStringValidator.java
+END
+Client.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/projetos/NetBeansProjects/!svn/ver/2/ClientEditor/src/clienteditor/Client.java
+END
+AgeValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/projetos/NetBeansProjects/!svn/ver/2/ClientEditor/src/clienteditor/AgeValidator.java
+END
+AgeConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/projetos/NetBeansProjects/!svn/ver/2/ClientEditor/src/clienteditor/AgeConverter.java
+END
+ClientEditor.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/projetos/NetBeansProjects/!svn/ver/2/ClientEditor/src/clienteditor/ClientEditor.java
+END
+MaritalStatusConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/projetos/NetBeansProjects/!svn/ver/2/ClientEditor/src/clienteditor/MaritalStatusConverter.java
+END
+ClientEditor.form
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/projetos/NetBeansProjects/!svn/ver/2/ClientEditor/src/clienteditor/ClientEditor.form
+END
+LoggingBindingListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/projetos/NetBeansProjects/!svn/ver/2/ClientEditor/src/clienteditor/LoggingBindingListener.java
+END
