@@ -1,0 +1,77 @@
+10
+
+dir
+0
+http://10.1.1.18/projetos/NetBeansProjects/WS1Client
+http://10.1.1.18/projetos/NetBeansProjects
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+05f98266-8ef1-4ca7-adce-4f64ab36473c
+
+build.xml
+file
+
+
+
+add
+
+build
+dir
+
+
+
+add
+
+nbproject
+dir
+
+
+
+add
+
+src
+dir
+
+
+
+add
+
+manifest.mf
+file
+
+
+
+add
+
+xml-resources
+dir
+
+
+
+add
+
+catalog.xml
+file
+
+
+
+add
+
