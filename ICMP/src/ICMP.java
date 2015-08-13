@@ -15,10 +15,12 @@ import java.net.UnknownHostException;
  */
 public class ICMP {
 public static void main(String[] args) throws UnknownHostException, IOException {
+    
     String ipAddress = "127.0.0.1";
     InetAddress inet = InetAddress.getByName(ipAddress);
 
     System.out.println("Enviando pacote ICMP  via porta  " + ipAddress);
+    
     System.out.println(inet.isReachable(5000) ? "Host está acessível" : "Host não está acessível");
 
     ipAddress = "192.168.0.1";
